@@ -4,37 +4,32 @@
 }
 
 #banner {
-  background: rgba(25, 80, 197, 0.445);
+  background: linear-gradient(#c48ed1,rgba(0, 0, 0, 0.5) ),
+    url(images/00110_31.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
 }
 
-#banner {
-  background: linear-gradient(#c48ed1,rgba(0, 0, 0, 0.5) ),
-    url(images/ftunb.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 120vh;
-}
 
 .logo {
-  width: 300px;
-  position: absolute;
-  top:4%;
-  left: 10%;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .banner-text {
   text-align: center;
   color: #fff;
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .banner-text h1 {
   font-size: 90px;
   font-family: "Kaushan Script", cursive;
   padding: 3px;
+  padding-bottom: 15px;
 }
 
 .banner-text h2 {
